@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Example 1</h1>
+<p id="demo">Fight me.</p>
+
+<button type="button" onclick="myFunction()">Click if yes</button>
+
+<script>
+function myFunction()
+{
+    document.getElementById("demo").innerHTML = "meet me in behind school at 11 ;)";
+}
+</script>
+
+
+
+
+
+
+
+
+<h1>Example 2</h1>
+<script>
+function disable() {
+    document.getElementById("mySelect").disabled=true;
+}
+function enable() {
+    document.getElementById("mySelect").disabled=false;
+}
+</script>
+</head>
+<body>
+
+<form>
+<select id="mySelect">
+  <option>PPAP</option>
+  <option>KIDZBOP</option>
+  <option>RUN RUN RUN</option>
+  <option>Paint it Black</option>
+</select>
+<br><br>
+<input type="button" onclick="disable()" value="Disable song list">
+<input type="button" onclick="enable()" value="Enable song list">
+</form>
+
+
+
+
+
+
+
+
+<h1>Example 3</h1>
+<p id="fart">KILL ME</p>
+
+<button type="button" onclick="document.getElementById('fart').style.display='none'">DO IT YOU WONT</button>
+
+
+
+
+<h1>Example 4</h1>
+
+
+<p id="YESS">I WANNA BE BIGG</p>
+
+<button type="button" onclick="document.getElementById('YESS').style.fontSize='35px'">MAKE ME BIGG</button>
+
+
+
+
+
+<h1>example 5</h1>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+
+</script>
+</body>
+</html>
